@@ -16,6 +16,5 @@ def get_character_count():
 
 
 if __name__ == '__main__':
-    print("- Password Generator by tym21 -\n")
     length = get_character_count()
     print("".join(secrets.choice(chars) for _ in range(length)))
